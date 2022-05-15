@@ -22,6 +22,9 @@ public class CheckoutPageStepDefination {
         this.checkoutPage = testContextSetup.pageObjectManager.getCheckoutPage();
     }
 
+
+
+
     @Then("^User proceeds to checkout and validate the (.+) items in checkout page$")
     public void User_proceeds_to_checkout_and_validate_the_items_in_checkout_page(String name){
         checkoutPage.checkoutitems();
