@@ -13,6 +13,8 @@ public  GenericUtils(WebDriver driver){
 }
 
     public void navigateToWindow() {
+
+
         Set<String> allOpenTaps = driver.getWindowHandles();
         String mainWindow = driver.getWindowHandle();
         Iterator<String> itr = allOpenTaps.iterator();
